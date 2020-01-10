@@ -1,0 +1,15 @@
+body {   
+    color: white;	
+	background-color: #242020;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+form {
+    width: 35%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}

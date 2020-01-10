@@ -1,0 +1,85 @@
+body {  
+    color: white;	
+	background-color: #242020;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+<!--Table-->
+th, td {
+  padding: 10px;
+}
+
+<!--Search button-->
+.button {
+  background-color: #8083e8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.b1 {
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 250px;
+}
+
+
+<!--Drop downs-->
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  margin-left:32px;
+  margin-right:32px;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f0f0f0}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f0f0f0;
+}
+
+<!--Search-->
+.Container input {
+	margin-right: 32px
+}
+
+.Container input:last-child {
+	margin-right: 0px
+}
